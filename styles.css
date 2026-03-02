@@ -2,8 +2,25 @@
 /* Basic page styling (optional but clean) */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     text-align: center;
+    margin: 0;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+}
+.header {
+    background-color: #2e59d9;
+    color: white;
+    padding: 20px;
+}
+button {
+    background-color: #1cc88a;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #17a673;
 }
 
 /* =========================
@@ -37,6 +54,20 @@ body {
     width: 300px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Fix large images */
+.country-card img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.border-country img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
 }
 
 /* =========================
